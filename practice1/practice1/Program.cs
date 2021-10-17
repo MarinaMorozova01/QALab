@@ -28,18 +28,18 @@ namespace practice1
 
             int firstValue = 20;
             int secondValue = 5;
-            Console.WriteLine($"Решить выражение используя следующие данные: \n \t Первое значение- {firstValue} \n\t Второе значение-  {secondValue} ");
+            Console.WriteLine($"Solve the expression using the following data: \n \t first value- {firstValue} \n\t second value-  {secondValue} ");
 
             if ((--firstValue + secondValue) != ((firstValue * secondValue++) % 3))
             {
-                Console.WriteLine("Значения не равны");
+                Console.WriteLine("Values are not equal");
             }
             else if ((firstValue-- + secondValue++ - 20) == (firstValue / secondValue))
             {
-                Console.WriteLine("Значения равны");
+                Console.WriteLine("Values are equal");
             }
 
-            Console.WriteLine(firstValue-- == 4 ? "Да" : "Нет");
+            Console.WriteLine(firstValue-- == 4 ? "Yes" : "No");
 
             bool resultIs = firstValue is int;
             Console.WriteLine(resultIs);
