@@ -10,7 +10,7 @@ namespace practice1
     {
         static void Main(string[] args)
         {
-            string name = "Марина";
+            string name = "Marina";
             int min = int.MinValue;
             uint max = int.MaxValue;
             bool choose = false;
