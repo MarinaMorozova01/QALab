@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\practice1\OOOP\bin\Debug\netcoreapp3.1\OOOP.exe
+C:\Users\Admin\source\repos\practice1\OOOP\bin\Debug\netcoreapp3.1\OOOP.deps.json
+C:\Users\Admin\source\repos\practice1\OOOP\bin\Debug\netcoreapp3.1\OOOP.runtimeconfig.json
+C:\Users\Admin\source\repos\practice1\OOOP\bin\Debug\netcoreapp3.1\OOOP.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\practice1\OOOP\bin\Debug\netcoreapp3.1\OOOP.dll
+C:\Users\Admin\source\repos\practice1\OOOP\bin\Debug\netcoreapp3.1\OOOP.pdb
+C:\Users\Admin\source\repos\practice1\OOOP\obj\Debug\netcoreapp3.1\OOOP.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\practice1\OOOP\obj\Debug\netcoreapp3.1\OOOP.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\practice1\OOOP\obj\Debug\netcoreapp3.1\OOOP.AssemblyInfo.cs
+C:\Users\Admin\source\repos\practice1\OOOP\obj\Debug\netcoreapp3.1\OOOP.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\practice1\OOOP\obj\Debug\netcoreapp3.1\OOOP.dll
+C:\Users\Admin\source\repos\practice1\OOOP\obj\Debug\netcoreapp3.1\OOOP.pdb
+C:\Users\Admin\source\repos\practice1\OOOP\obj\Debug\netcoreapp3.1\OOOP.genruntimeconfig.cache
