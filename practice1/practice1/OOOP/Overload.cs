@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace ооп
+namespace OOP
 {
     public class Overload
     {
@@ -46,6 +46,7 @@ namespace ооп
                 Console.WriteLine($"{str},{a}");
             }
         }
+        
         private void DisplayOverload(int a, params object[] parametrArray)
         {
             foreach (var str in parametrArray)
@@ -53,14 +54,17 @@ namespace ооп
                 Console.WriteLine($"{str},{a}");
             }
         }
+        
         private void DisplayOverload1(int a, params int[] parametrArray)
         {
             parametrArray[1] = 3000;
         }
+        
         private void DisplayOverload(int x, int y)
         {
             Console.WriteLine("The two integers" + x + "" + y);
         }
+        
         private void DisplayOverload(params int[] parametrArray)
         {
             Console.WriteLine("parametrArray");
@@ -69,6 +73,7 @@ namespace ооп
 
         #region (ref,out)
         private string _name = "Achil";
+        
         private void Display2(ref string x, ref string y)
         {
             Console.WriteLine(_name);
@@ -78,6 +83,7 @@ namespace ооп
             Console.WriteLine(_name);
             _name = "Achil 3";
         }
+        
         public void Display()
         {
             Display2(ref _name, ref _name);
@@ -89,6 +95,7 @@ namespace ооп
             n = "Hello";
             d = "world";
         }
+        
         public void Display4()
         {
             Display3(out _name, out _name);
@@ -112,10 +119,12 @@ namespace ооп
         {
             Console.WriteLine($"DisplayOverload int a={a}");
         }
+        
         public void DisplayOverload(string s)
         {
             Console.WriteLine($"DisplayOverload string s={s}");
         }
+        
         public void DisplayOverload(string s, int a)
         {
             Console.WriteLine($"DisplayOverload string s={s}, int a= {a}");
