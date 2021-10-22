@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace ооп
+namespace OOP
 {
     #region Class for Inheritance
     abstract class A
@@ -13,6 +13,7 @@ namespace ооп
 
         public abstract void Xyz();
     }
+    
     class B : A
     {
         public void Test1()
@@ -20,14 +21,17 @@ namespace ооп
             Console.WriteLine("Try to do somethink");
             DoIt();
         }
+        
         public override void Xyz()
         {
 
         }
     }
+    
     class C
     {
         //private A a = new A();
+        
         public void Test2()
         {
             Console.WriteLine("Try to do somethink 2");
@@ -35,6 +39,7 @@ namespace ооп
         }
     }
     #endregion
+    
     class Program
     {
         static void adc(A a)
@@ -42,6 +47,7 @@ namespace ооп
             a.DoIt();
             a.Xyz();
         } // For Inheritance
+        
         static void Main(string[] args)
         {
             #region Polymorphism
