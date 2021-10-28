@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HomeWork3
 {
-    class UserFactory
+    class UserFactory 
     {
-        public UserFactory()
+        public T CreatePerson<T>() where T : new()
         {
-            // Chto to.
+            T person = new T();
+            return person;          
         }
+
+       
     }
 }

@@ -39,11 +39,12 @@ namespace HomeWork3
 
         static void Main(string[] args)
         {
-            var candidate = new Candidate();
-            var employee = new Employee();
+            var createPerson = new UserFactory();
+            var candidate = createPerson.CreatePerson<Candidate>();
+            var employee = createPerson.CreatePerson<Employee>();
 
-            
-          
+
+
             #region Exercise 6
             //List<Candidate> candidateList = SetRandomCandidate();
             //var candidateSort = new CandidateReportGenerator();
