@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace HomeWork3
 {
@@ -9,8 +8,7 @@ namespace HomeWork3
     {
         public List<Candidate> SortSalary(List<Candidate> candidateList)
         {
-            var sortCandidate = candidateList.OrderBy(u => u.JobSalary).ToList();
-            candidateList = sortCandidate;
+            candidateList = candidateList.OrderBy(u => u.JobSalary).ToList();          
 
             for (int i = 0; i < candidateList.Count; i++)
             {
@@ -24,8 +22,8 @@ namespace HomeWork3
 
         public List<Candidate> SortTitle(List<Candidate> candidateList)
         {
-            var sortCandidate = candidateList.OrderBy(u => u.JobTitle).ToList();
-            candidateList = sortCandidate;
+            candidateList = candidateList.OrderBy(u => u.JobTitle).ToList();
+            
 
             for (int i = 0; i < candidateList.Count; i++)
             {

@@ -24,7 +24,7 @@ namespace HomeWork3
         DismissalReasonEnum[] DismissalReasonArray = (DismissalReasonEnum[])Enum.GetValues(typeof(DismissalReasonEnum));
 
         public Candidate()
-        {
+        {         
             _checkValue = random.Next(2);
             if (_checkValue == 1)
             {
@@ -35,6 +35,8 @@ namespace HomeWork3
                 DismissalReason = null;
             }
         }
+
+        
 
         // Exercise 2.
         public override void GetInfo()
@@ -52,6 +54,6 @@ namespace HomeWork3
                     $" I haven't worked anywhere before.");
             }
         }
-
+        
     }
-}
+}  
