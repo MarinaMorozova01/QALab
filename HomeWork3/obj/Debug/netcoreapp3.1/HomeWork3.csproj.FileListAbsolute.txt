@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\practice1\HomeWork3\bin\Debug\netcoreapp3.1\HomeWork3.exe
+C:\Users\Admin\source\repos\practice1\HomeWork3\bin\Debug\netcoreapp3.1\HomeWork3.deps.json
+C:\Users\Admin\source\repos\practice1\HomeWork3\bin\Debug\netcoreapp3.1\HomeWork3.runtimeconfig.json
+C:\Users\Admin\source\repos\practice1\HomeWork3\bin\Debug\netcoreapp3.1\HomeWork3.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\practice1\HomeWork3\bin\Debug\netcoreapp3.1\HomeWork3.dll
+C:\Users\Admin\source\repos\practice1\HomeWork3\bin\Debug\netcoreapp3.1\HomeWork3.pdb
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.AssemblyInfo.cs
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.dll
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.pdb
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.genruntimeconfig.cache
+C:\Users\Admin\source\repos\practice1\HomeWork3\bin\Debug\netcoreapp3.1\Bogus.dll
+C:\Users\Admin\source\repos\practice1\HomeWork3\obj\Debug\netcoreapp3.1\HomeWork3.csproj.CopyComplete

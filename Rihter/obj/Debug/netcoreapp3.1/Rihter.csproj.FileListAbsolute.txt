@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\practice1\Rihter\bin\Debug\netcoreapp3.1\Rihter.exe
+C:\Users\Admin\source\repos\practice1\Rihter\bin\Debug\netcoreapp3.1\Rihter.deps.json
+C:\Users\Admin\source\repos\practice1\Rihter\bin\Debug\netcoreapp3.1\Rihter.runtimeconfig.json
+C:\Users\Admin\source\repos\practice1\Rihter\bin\Debug\netcoreapp3.1\Rihter.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\practice1\Rihter\bin\Debug\netcoreapp3.1\Rihter.dll
+C:\Users\Admin\source\repos\practice1\Rihter\bin\Debug\netcoreapp3.1\Rihter.pdb
+C:\Users\Admin\source\repos\practice1\Rihter\obj\Debug\netcoreapp3.1\Rihter.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\practice1\Rihter\obj\Debug\netcoreapp3.1\Rihter.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\practice1\Rihter\obj\Debug\netcoreapp3.1\Rihter.AssemblyInfo.cs
+C:\Users\Admin\source\repos\practice1\Rihter\obj\Debug\netcoreapp3.1\Rihter.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\practice1\Rihter\obj\Debug\netcoreapp3.1\Rihter.dll
+C:\Users\Admin\source\repos\practice1\Rihter\obj\Debug\netcoreapp3.1\Rihter.pdb
+C:\Users\Admin\source\repos\practice1\Rihter\obj\Debug\netcoreapp3.1\Rihter.genruntimeconfig.cache

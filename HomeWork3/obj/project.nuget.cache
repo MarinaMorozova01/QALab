@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UI65wTf3cKDgHfXCGQYdZFFO61c2ufLrvey7y1IzCviq5nytic3CeeFy+q3NtFgBm2yrPijO3MQfPHcWoPmCjA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\practice1\\HomeWork3\\HomeWork3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\bogus\\33.1.1\\bogus.33.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
