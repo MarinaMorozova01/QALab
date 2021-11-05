@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HomeWork3
 {
@@ -21,20 +19,14 @@ namespace HomeWork3
             LastName = new Bogus.DataSets.Name().LastName();
             JobTitle = new Bogus.DataSets.Name().JobType();
             JobDescription = new Bogus.DataSets.Name().JobTitle();
-            JobSalary = new Bogus.Randomizer().Int(500, 10000);
+            JobSalary = new Bogus.Randomizer().Int(500, 10000);               
         }
 
-        public string FullName
-        {
-            get
-            {
-                return $"{FirstName} {LastName}";
-            }
-        }
+        public string FullName => $"{FirstName} {LastName}";
 
         public virtual void GetInfo()
         {
-            throw new NotImplementedException();
-        }
+            Console.WriteLine("GetInfo in base class");
+        }       
     }
 }
