@@ -1,23 +1,15 @@
-﻿using System;
+﻿using HomeWork3.Users;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace HomeWork3
-{
-    enum DismissalReasonEnum
-    {
-        FamilyReasons,
-        ProfessionalGrowthLack,
-        LowSalary,
-        BadTeamMicroclimate,
-        LackManagementUnderstanding,
-        Other
-    }
+{  
 
     class Candidate : Person
     {
         public string DismissalReason { get; set; }
-
+        
         Random random = new Random();
         private int _checkValue;
 
