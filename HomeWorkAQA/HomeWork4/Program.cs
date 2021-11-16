@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace HomeWork4
 {
@@ -40,7 +39,6 @@ namespace HomeWork4
                     }
                 }
             }
-
             return myArray;
         }
 
@@ -62,7 +60,6 @@ namespace HomeWork4
                 }
                 d = d / 2;
             }
-
             return array;
         }
 
@@ -71,7 +68,6 @@ namespace HomeWork4
             Random random = new Random();
 
             #region Exersixe 1
-
             //List<int> list1 = new List<int>();
             //List<int> list2 = new List<int>();
             //List<int> list3 = new List<int>();
@@ -103,19 +99,15 @@ namespace HomeWork4
 
             //int indexMin = Array.FindIndex(myArray, i => i == myArray.Min());
             //int indexMax = Array.FindIndex(myArray, i => i == myArray.Max());
-
             //int[] myArray2 = indexMax > indexMin? myArray[indexMin..++indexMax] : myArray[indexMax..++indexMin];      
 
             //int sum = myArray2.Sum();
-
-            //Console.WriteLine(sum);
 
             #endregion
 
             #region Exersize 3
 
             //List<int> circleMan = new List<int>(Enumerable.Range(1, 15));
-
             //PrintList(circleMan);
 
             //bool change = false;
@@ -154,13 +146,6 @@ namespace HomeWork4
             //PrintArray(myArray);
 
             #endregion 
-
-
-
-
-
-
-
         }
     }
 }
