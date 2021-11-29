@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="C:\Users\Admin\.nuget\packages\nlog.config\4.7.12\contentFiles\any\any\NLog.xsd" />
     <None Remove="info.json" />
   </ItemGroup>
 
@@ -15,6 +16,14 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NLog" Version="4.7.12" />
+    <PackageReference Include="NLog.Config" Version="4.7.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Admin\.nuget\packages\nlog.config\4.7.12\contentFiles\any\any\NLog.config">
+      <Generator></Generator>
+    </None>
   </ItemGroup>
 
 </Project>
