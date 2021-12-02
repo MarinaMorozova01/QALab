@@ -4,7 +4,6 @@ using System.Text;
 
 namespace HomeWork5
 {
-    [Serializable]
     public class Shop
     {
         public int Id { get; set; }
