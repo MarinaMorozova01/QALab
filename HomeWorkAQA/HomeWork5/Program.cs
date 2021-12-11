@@ -9,9 +9,10 @@ using System.Linq;
 namespace HomeWork5
 {
     class Program
-    {
+    {   
         public static void CountingPhones(Shop[] shop)
         {
+            Logger logger = LogManager.GetCurrentClassLogger();
             for (int i = 0; i < shop.Length; i++)
             {
                 Phone[] phoneArray = shop[i].Phones.Where(i => i.IsAvailable == true).ToArray();
@@ -23,11 +24,18 @@ namespace HomeWork5
                 Console.WriteLine($"IOS Is Available: {countIOS}");
                 Console.WriteLine($"Android Is Available: {countAndroid}");
                 Console.WriteLine("-----------");
+
+                logger.Info($"{shop[i].Id} {shop[i].Name}");
+                logger.Info(shop[i].Description);
+                logger.Info($"IOS Is Available: {countIOS}");
+                logger.Info($"Android Is Available: {countAndroid}");
+                logger.Info("-----------");
             }
         }
 
         static void Main(string[] args)
         {
+            Logger logger = LogManager.GetCurrentClassLogger();           
             #region Creation objects
 
             string path = "info.json";
@@ -50,10 +58,12 @@ namespace HomeWork5
             while (exitToCycle)
             {
                 Console.WriteLine("Which mobile phone do you want to buy ?");
+                logger.Info("Which mobile phone do you want to buy ?");
                 var usersModel = Console.ReadLine();
 
                 desiredPhones = allPhone.FindAll(i => i.Model == usersModel);
                 Console.WriteLine("-------");
+                logger.Info("-------");
 
                 for (int i = 0; i < desiredPhones.Count; i++)
                 {
@@ -66,16 +76,25 @@ namespace HomeWork5
                                 $"{desiredPhones[i].Price} \n" +
                                 $"{shop[marketId].Name}");
                         Console.WriteLine("-----------");
+
+                        logger.Info($"{desiredPhones[i].Model} \n" +
+                                $"{desiredPhones[i].OperationSystemType} \n" +
+                                $"{desiredPhones[i].MarketLaunchDate} \n" +
+                                $"{desiredPhones[i].Price} \n" +
+                                $"{shop[marketId].Name}" +
+                                "-----------------");
                     }
                     else if (desiredPhones[i].IsAvailable == false)
                     {
                         Console.WriteLine("This mobile phone is out of stock");
+                        logger.Info("This mobile phone is out of stock");
                         continue;
                     }
                 }
                 if (desiredPhones.Count == 0)
                 {
                     Console.WriteLine("This mobile phone is not found");
+                    logger.Info("This mobile phone is not found");
                     continue;
                 }
                 exitToCycle = false;
@@ -89,6 +108,8 @@ namespace HomeWork5
             {
                 Console.WriteLine("In which store do you want to buy the mobile phone ? Enter the number.");
                 Console.WriteLine(" 1.Onliner \n 2.Yandex Market");
+                logger.Info("In which store do you want to buy the mobile phone ? Enter the number.");
+                logger.Info(" 1.Onliner \n 2.Yandex Market");
                 try
                 {
                     idShop = Convert.ToInt32(Console.ReadLine());
@@ -101,6 +122,7 @@ namespace HomeWork5
                 if (idShop > 2 | idShop < 1)
                 {
                     Console.WriteLine("You entered incorrect data. Try again.");
+                    logger.Info("You entered incorrect data. Try again.");
                     continue;
                 }
 
@@ -112,6 +134,7 @@ namespace HomeWork5
                 catch (Exception)
                 {
                     Console.WriteLine("This model is not available in the store. Please choose another store.");
+                    logger.Error("This model is not available in the store. Please choose another store.");
                     continue;
                 }
 
@@ -119,13 +142,20 @@ namespace HomeWork5
                 {
                     Console.WriteLine($"Order for { selectedPhone[0].Model} ({ selectedPhone[0].OperationSystemType}), price ${ selectedPhone[0].Price}, market launch date " +
                         $"{ selectedPhone[0].MarketLaunchDate}, in shop {shop[choseShop].Name} has been successfully placed");
+                    logger.Info($"Order for { selectedPhone[0].Model} ({ selectedPhone[0].OperationSystemType}), price ${ selectedPhone[0].Price}, market launch date " +
+                        $"{ selectedPhone[0].MarketLaunchDate}, in shop {shop[choseShop].Name} has been successfully placed");
+
                     exitToCycle = false;
                 }
                 else if (selectedPhone.Count == 0)
                 {
                     Console.WriteLine("This shop is not found");
+                    logger.Info("This shop is not found");
                     break;
                 }
+
+                Console.WriteLine();
+
             }
         }
     }
