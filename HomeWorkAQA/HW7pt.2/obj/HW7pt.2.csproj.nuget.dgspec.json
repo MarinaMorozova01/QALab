@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj": {}
+    "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj": {
+    "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj",
+        "projectUniqueName": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj",
         "projectName": "HW7pt.2",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HW7pt.2\\obj\\",
+        "projectPath": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HW7pt.2\\HW7pt.2.csproj",
+        "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HW7pt.2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudio\\VisualStudioGeneral\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

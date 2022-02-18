@@ -4258,19 +4258,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Professional\\.nuget\\packages\\": {},
+    "D:\\VisualStudio\\VisualStudioGeneral\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HomeWorkSelenium7\\HomeWorkSelenium7.csproj",
+      "projectUniqueName": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HomeWorkSelenium7\\HomeWorkSelenium7.csproj",
       "projectName": "HomeWorkSelenium7",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HomeWorkSelenium7\\HomeWorkSelenium7.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HomeWorkSelenium7\\obj\\",
+      "projectPath": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HomeWorkSelenium7\\HomeWorkSelenium7.csproj",
+      "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HomeWorkSelenium7\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VisualStudio\\VisualStudioGeneral\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

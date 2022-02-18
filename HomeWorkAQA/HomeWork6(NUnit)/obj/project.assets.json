@@ -4953,19 +4953,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Professional\\.nuget\\packages\\": {},
+    "D:\\VisualStudio\\VisualStudioGeneral\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HomeWork6(NUnit)\\HomeWork6(NUnit).csproj",
+      "projectUniqueName": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HomeWork6(NUnit)\\HomeWork6(NUnit).csproj",
       "projectName": "HomeWork6(NUnit)",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HomeWork6(NUnit)\\HomeWork6(NUnit).csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\HomeWorkAQA\\HomeWork6(NUnit)\\obj\\",
+      "projectPath": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HomeWork6(NUnit)\\HomeWork6(NUnit).csproj",
+      "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Professional\\Desktop\\QALab\\HomeWorkAQA\\HomeWork6(NUnit)\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VisualStudio\\VisualStudioGeneral\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

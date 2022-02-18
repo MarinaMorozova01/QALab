@@ -24,10 +24,10 @@ namespace HomeWork6_NUnit_
 
         [Test]
         [Category("SmokeTest")]
-        [Property("Priority",1)]
+        [Property("Priority", 1)]
         public void TestSum()
         {
-            Assert.AreEqual(13,  _calculator.Sum(5, 8));
+            Assert.AreEqual(13, _calculator.Sum(5, 8));
         }
 
         [Test]
@@ -68,7 +68,7 @@ namespace HomeWork6_NUnit_
             {
                 string str = "calculator is work";
                 Assert.IsNotEmpty(str);
-                List<string> person = new List<string>() {};
+                List<string> person = new List<string>() { };
                 Assert.IsEmpty(person);
             });
         }
@@ -79,19 +79,20 @@ namespace HomeWork6_NUnit_
         {
             Assert.Multiple(() =>
             {
-                int dif = _calculator.Dif(50,20);
-                int sum = _calculator.Sum(10,15);
+                int dif = _calculator.Dif(50, 20);
+                int sum = _calculator.Sum(10, 15);
                 Assert.Greater(dif, sum);
-                int div = _calculator.Div(50,10);
+                int div = _calculator.Div(50, 10);
                 Assert.GreaterOrEqual(sum, div);
-                Assert.LessOrEqual(sum, dif);              
+                Assert.LessOrEqual(sum, dif);
             });
         }
+
         [Test]
         public void TestUtility()
         {
             int prod = _calculator.Prod(10, 4);
-            if (prod<100)
+            if (prod < 100)
             {
                 Assert.Pass("Result is less than 100"); ;
             }
