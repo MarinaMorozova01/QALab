@@ -1,13 +1,16 @@
-using NUnit.Framework;
-using System;
+ο»Ώusing NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using static OpenQA.Selenium.Support.UI.WebDriverWait;
+using System.Linq;
+using System.Threading.Tasks;
 using static OpenQA.Selenium.By;
+using System;
 
-namespace HW7pt._2
+namespace HomeWorkSelenium7
 {
-    public class Tests
+    public class Tests2
     {
         public IWebDriver _driver2;
 
@@ -27,7 +30,7 @@ namespace HW7pt._2
 
             IWebElement dropDown = fluentW.Until(ExpectedConditions.ElementToBeClickable(By.Id("activity")));
             SelectElement selectElement = new SelectElement(dropDown);
-            selectElement.SelectByText("5 πΰη β νεδελώ");
+            selectElement.SelectByText("5 Ρ€Π°Π· Π² Π½ΠµΠ΄ΠµΠ»Ρ");
 
             IWebElement age = fluentW.Until(ExpectedConditions.ElementToBeClickable(By.Id("age")));
             age.Click();
@@ -46,9 +49,9 @@ namespace HW7pt._2
             submit.Click();
             System.Threading.Thread.Sleep(10000);
 
-            IWebElement result = fluentW.Until(ExpectedConditions.ElementToBeClickable(By.XPath("(//td[contains(text(), 'κκΰλ/δενό')])[1]")));
+            IWebElement result = fluentW.Until(ExpectedConditions.ElementToBeClickable(By.XPath("(//td[contains(text(), 'ΠΊΠΊΠ°Π»/Π΄ΠµΠ½Ρ')])[1]")));
             string result2 = result.Text;
-            Assert.AreEqual("3028 κκΰλ/δενό", result2);
+            Assert.AreEqual("3028 ΠΊΠΊΠ°Π»/Π΄ΠµΠ½Ρ", result2);
         }
 
         [TearDown]

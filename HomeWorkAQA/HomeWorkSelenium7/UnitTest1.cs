@@ -62,18 +62,18 @@ namespace HomeWorkSelenium7
             calculate.Click();
             System.Threading.Thread.Sleep(10000);
 
-            IWebElement calcResult1 = _driver.FindElement(By.XPath("//span[text()='53']"));
-            Assert.AreEqual("53", calcResult1.Text);
+            IWebElement calcResult1 = _driver.FindElement(By.XPath("//div[contains(text(),'Требуемое количество досок ламината:')]"));
+            Assert.AreEqual("Требуемое количество досок ламината: 53", calcResult1.Text);
             System.Threading.Thread.Sleep(10000);
 
-            IWebElement calcResult2 = _driver.FindElement(By.XPath("//span[text()='7']"));
-            Assert.AreEqual("7", calcResult2.Text);
+            IWebElement calcResult2 = _driver.FindElement(By.XPath("//div[contains(text(),'Количество упаковок ламината:')]"));
+            Assert.AreEqual("Количество упаковок ламината: 7", calcResult2.Text);
         }
 
         [TearDown]
         public void TearDown()
         {
-            _driver.Quit();
+            //_driver.Quit();
         }
     }
 }
